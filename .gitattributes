@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+# Scripts Windows : fins de ligne CRLF conservées
+*.bat text eol=crlf
+
+# Binaires
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.svg text

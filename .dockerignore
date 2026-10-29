@@ -1,0 +1,24 @@
+# Contexte de build Docker allégé (les images sont copiées depuis public/images)
+
+node_modules
+dist
+out
+images
+
+.git
+.gitignore
+.gitattributes
+.dockerignore
+
+# Scripts Windows / local, inutiles dans l'image
+start-local.bat
+serve.js
+
+# Divers
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.env
+.env.*
+README.md

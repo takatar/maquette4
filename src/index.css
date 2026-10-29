@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-offwhite: #F7F6F2;
+    --color-noir: #151515;
+    --color-rouge: #D92727;
+    --color-bleu: #1746A2;
+    --color-jaune: #F2C230;
+    --color-gris: #E7E5DF;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--color-noir);
+    background-color: var(--color-offwhite);
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: 'DM Serif Display', Georgia, serif;
+  }
+}
+
+/* Custom Mondrian utility accents */
+.border-mondrian-black {
+  border-color: #151515;
+}
+
+.bg-mondrian-offwhite {
+  background-color: #F7F6F2;
+}
+
+.bg-mondrian-noir {
+  background-color: #151515;
+}
+
+.bg-mondrian-rouge {
+  background-color: #D92727;
+}
+
+.bg-mondrian-bleu {
+  background-color: #1746A2;
+}
+
+.bg-mondrian-jaune {
+  background-color: #F2C230;
+}
+
+.bg-mondrian-gris {
+  background-color: #E7E5DF;
+}
+
+.text-mondrian-rouge {
+  color: #D92727;
+}
+
+.text-mondrian-bleu {
+  color: #1746A2;
+}
+
+.text-mondrian-jaune {
+  color: #F2C230;
+}

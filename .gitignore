@@ -1,0 +1,23 @@
+# Dépendances
+node_modules/
+
+# Sorties de build (régénérées par Docker / npm run build)
+dist/
+out/
+
+# Doublon des photographies à la racine : la source unique est public/images/
+# (le slash initial est indispensable, sinon public/images/ serait ignoré aussi)
+/images/
+
+# Fichiers d'environnement
+.env
+.env.*
+!.env.example
+
+# Divers système / éditeurs
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
