@@ -8,7 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const PORT = 3000;
-const PUBLIC_DIR = path.join(__dirname, 'out');
+// Vite génère le site compilé dans « dist » (voir npm run build)
+const PUBLIC_DIR = path.join(__dirname, 'dist');
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=utf-8',

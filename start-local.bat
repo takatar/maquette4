@@ -10,9 +10,9 @@ echo.
 
 cd /d "%~dp0"
 
-REM Vérification de la présence du dossier out
-if not exist "out\index.html" (
-    echo [ERREUR] Le dossier "out" ou le fichier "out\index.html" est introuvable.
+REM Vérification de la présence du dossier dist (sortie de npm run build)
+if not exist "dist\index.html" (
+    echo [ERREUR] Le dossier "dist" ou le fichier "dist\index.html" est introuvable.
     echo Veuillez d'abord compiler le projet avec npm run build.
     echo.
     pause
