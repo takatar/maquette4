@@ -1,9 +1,11 @@
 # Contexte de build Docker allégé (les images sont copiées depuis public/images)
 
-node_modules
-dist
-out
-images
+# Chemins ancrés à la racine : ne jamais exclure public/images/
+/node_modules
+/dist
+/out
+/images
+/container.css
 
 .git
 .gitignore
